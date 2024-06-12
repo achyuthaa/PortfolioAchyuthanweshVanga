@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achyuthanwesh Vanga - Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/031ec477bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+     <div class="container">
+        <nav> 
+            <img src="Images/Logo.png" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>.NET Developer</p>
+            <h1>Hello! I am <span>Achyuthanwesh Vanga</span>,<br> I am from United States of America</h1>
+        </div>
+     </div>   
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1"> 
+                    <img src="Images/Profile.jpg">
+                </div>              
+                <div class="col-2">
+                    <h2 class="subtitle">About Me</h2>
+                        <p>Welcome to my Portfolio! I am a dedicated software engineer with 1.5 years of experience specializing in .NET Framework and Microsoft SQL Server. I leverage my deep understanding of the Microsoft technology stack to build robust, scalable applications tailored to meet industry-specific needs.
+
+                            <br><br>I am committed to staying at the forefront of technology, consistently enhancing my skills in .NET frameworks and exploring innovative solutions. My background in deploying applications on cloud platforms like Microsoft Azure enhances the scalability and performance of the solutions I deliver.
+                            
+                            As a proactive team player, I thrive in collaborative settings and am skilled at translating complex technical concepts for diverse audiences. I am driven to harness technology to drive business success and innovation.
+                            
+                            <div class="link">
+                                <p class="link-title active-link" onclick="opentab('Skills')">Skills</p>
+                                <p class="link-title" onclick="opentab('Experience')">Experience</p>
+                                <p class="link-title" onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div class="tab-content active-tab" id="Skills">
+                                <ul>
+                                    <li>
+                                        <span>.NET Development</span><br>
+                                        Developing Web Applications using HTML,CSS,JS,React and ASP.Net Core(MVC)
+                                    </li>
+                                    <li>
+                                        <span>Java Development</span><br>
+                                        Developing Web API's using Java-Springboot
+                                    </li>
+                                    <li>
+                                        <span>Cloud Computing</span><br>
+                                        Extensive understanding of cloud fundamentals and deployment of applications on cloud platforms
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="Experience">
+                                <ul>
+                                    <li>
+                                        <span>Mar 2023 - May 2024</span><br>
+                                        Software Developer & Research Assistant at FSU 
+                                    </li>
+                                    <li>
+                                        <span>Apr 2022 - Aug 2022</span><br>
+                                        Software Developer Intern at Wipro Technologies
+                                    </li>
+                                    <li>
+                                        <span>Apr 2020 - Apr 2022</span><br>
+                                        Software Developer Intern at Lido Learning
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="Education">
+                                <ul>
+                                    <li>
+                                        <span>2024</span><br>
+                                        Master's Degree in Computer Science from Florida State University 
+                                    </li>
+                                    <li>
+                                        <span>2022</span><br>
+                                        Bachelors Degree in Computer Science specialized in Cloud Computing from SPSU
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- --services-- -->
+    <div id="services">
+        <div class="container">
+            <h2 class="subtitle">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>API Development</h2>
+                    <p>As an accomplished API developer, I specialize in building robust, scalable, and secure web services using C# ASP.NET Framework and Java Spring Boot. My approach integrates best practices in RESTful design, ensuring intuitive and efficient endpoints. I am proficient in implementing advanced security protocols, including OAuth and JWT, to safeguard data integrity and user privacy. My work involves leveraging asynchronous programming for optimal performance and utilizing tools like Swagger for comprehensive API documentation and testing. I am committed to crafting solutions that drive digital transformation and deliver exceptional business value. Additionally, my experience with microservices architecture promotes easier maintenance and quicker updates, and I continuously engage in learning to integrate cutting-edge technologies that enhance functionality and user experience.</p>
+                    <a href="#">learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full Stack Development</h2>
+                    <p>As a Full Stack Developer, I harness my skills in both front-end and back-end technologies to build complete, scalable web applications. My front-end expertise includes HTML, CSS, and JavaScript, allowing me to create responsive and interactive user interfaces. On the back-end, I am proficient in C# ASP.NET Framework and Java Spring Boot, which I use to develop robust APIs and manage server-side logic. My approach is to integrate these technologies seamlessly, ensuring that both client and server components work together effectively. I am committed to leveraging this full stack capability to deliver holistic solutions that meet business needs and enhance user experience.</p>
+                    <a href="#">learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud Solutions</h2>
+                    <p>As a Full Stack Developer with a focus on cloud solutions, I leverage the power of cloud platforms to build scalable, efficient, and secure applications. My expertise spans developing and deploying applications on major cloud services like AWS, Azure, and Google Cloud Platform. I utilize cloud-native services, such as serverless computing, managed databases, and auto-scaling groups, to enhance application performance and reduce operational costs. My approach involves integrating continuous integration and continuous deployment (CI/CD) pipelines, ensuring seamless updates and high availability. Committed to delivering cloud-optimized solutions, I aim to help businesses leverage the full potential of cloud technology to achieve their strategic objectives.</p>
+                    <a href="#">learn more...</a>
+                </div>
+
+            </div>
+        </div>   
+    </div>
+    <!-- --portfolio-- -->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="subtitle">My Work</h2>
+            <div class="worklist">
+                <div class="work">
+                  <img src="Images/ExpenseTracker.png">
+                  <div class="social">
+                    <h3><a href="https://github.com/achyuthaa/ExpenseTracker">Expense Tracker</a></h3>
+                    <p>Efficiently manage your finances with our Expense Tracker</p>
+                  </div>
+                </div>
+                <div class="work">
+                 <img src="Images/OrderManagement.png">
+                 <div class="social">
+                    <h3><a href="https://github.com/achyuthaa/CRUD_APPLICATION">Order Management</a></h3>
+                    <p>Order management tracks and fulfills sales orders from creation to delivery.</p>
+                 </div>
+                </div>
+                <div class="work">
+                    <img src="Images/JobSelection.png">
+                    <div class="social">
+                      <h3><a href="https://github.com/achyuthaa/Jobselection">Job Application System</a></h3>
+                      <p>A job application system simplifies managing and reviewing applications for recruiters and students.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="button">See more</div>
+        </div>
+    </div>
+    <!-- --Contact-- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+               <div class="col-1">
+                 <h2 class="subtitle">Contact Me</h2>
+                 <p><i class="fa-solid fa-envelope" style="margin-right: 8px; color: rgb(67, 102, 67); font-size: 18px;"></i>achyuthanwesh2022@gmail.com</p>
+                 <p><i class="fa-solid fa-phone" style="margin-right: 8px; color: rgb(67, 102, 67); font-size: 18px;"></i>8509805448</p>
+                 <div class="social-icons">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                 </div>
+                 <div class="resume">
+                    <a href="Images/AC_Achyuthanwesh _Technical_Resume-JOBS_FSU_USA_2024_ (1).pdf" class="button" download="" style="background-color: #ff004f;  margin-left: 0;">Download Resume</a>
+                 </div>          
+               </div>
+               <div class="col-2">
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button btn">Submit</button>
+                 </form>
+                 <span id="msg"></span>
+               </div>
+              
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- --CopyRight-- -->
+    <div class="Copyright">
+        <div class="container">
+            <p>Designed and Developed by Achyuthanwesh Vanga <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var currentlinks = document.getElementsByClassName("link-title");
+        var currenttabs = document.getElementsByClassName("tab-content");
+        function opentab(tab){
+        for(currentlink of currentlinks){
+            currentlink.classList.remove("active-link");
+        }
+        for(currenttab of currenttabs) {
+            currenttab.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tab).classList.add("active-tab");
+    }
+     </script>
+    <script>
+    var menu = document.getElementById("sidemenu");
+    function openmenu(){ 
+        menu.style.right = "0";
+    }
+    function closemenu(){    
+        menu.style.right = "-200px";
+    }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzb1x6W2kVMDpDc7HyF-RCuKhFglabgMqzab-5oQYOs1rlrOppDjHBarSoSuumt7GMc/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+            msg.innerHTML = "Message Successfully sent!"
+            setTimeout(function(){
+                msg.innerHTML=""},5000)
+            form.reset()    
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
